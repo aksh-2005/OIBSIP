@@ -1,0 +1,432 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Francois+One&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Walter+Turncoat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+.main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul {
+    margin-top: -1%;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+
+.nav li a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #8b008b;
+    margin-top: -3%;
+}
+
+.nav li a:hover {
+    color: #9932cc;
+
+}
+
+.home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.home img {
+    margin-left: 2%;
+    width: 25vw;
+    cursor: pointer;
+
+}
+
+.home-content {
+    margin-left: 5rem;
+}
+
+
+.home-content h3 {
+    font-family: "Francois One", serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.home-content h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: "Francois One", serif;
+}
+
+.home-content h3:nth-last-of-type(2) {
+    margin-bottom: 2rem;
+
+}
+
+h2 span {
+    color: #8b008b;
+
+}
+
+span {
+    color: #8b008b;
+
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: "Francois One", serif;
+}
+
+.home-content p {
+    font-family: "Lexend", serif;
+    font-size: 1.3rem;
+}
+
+
+.socials a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.18rem solid #8b008b;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 2rem 0.8rem 2rem 0;
+    transition: 0.3s ease;
+    color: #8b008b;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: rgb(255, 254, 254);
+    transform: scale(1.3) translateY(-5px);
+    background-color: #8b008b;
+    box-shadow: 0 0 25px #8b008b;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: transparent;
+    border: 0.2rem solid #8b008b;
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1rem;
+    color: #8b008b;
+    text-decoration: none;
+    font-family: "Francois One", serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.btn1:hover {
+    color: rgb(255, 254, 254);
+    transform: scale(1) translateY(-5px);
+    background-color: #8b008b;
+    box-shadow: 0 0 25px #8b008b;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: #9932cc;
+    border-radius: 4rem;
+    border: 0.2rem solid #9932cc;
+    box-shadow: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    font-family: "Francois One", serif;
+    letter-spacing: 0.1rem;
+
+}
+
+.btn2:hover {
+    color: rgb(255, 254, 254);
+    transform: scale(1) translateY(-5px);
+    background-color: #8b008b;
+    box-shadow: 0 0 25px #8b008b;
+    border: 0.2rem solid #8b008b;
+}
+
+
+.about {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: rgb(255, 255, 255);
+}
+
+.about-img img {
+    width: 25vw;
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+.heading {
+    font-family: "Francois One", serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-content {
+    padding: 0 4rem;
+}
+
+.about-content h2 {
+    font-weight: 700;
+    text-align: left;
+    line-height: 1;
+}
+
+.about-content h3 {
+    font-family: "Francois One", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-size: 1.3rem;
+    font-family: "Lexend", serif;
+
+}
+
+.container {
+
+    height: auto;
+    width: 1000px;
+    background: rgb(255, 255, 255);
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 25px black;
+}
+
+.container:hover {
+    box-shadow: 2px 2px 25px #8b008b;
+    transform: scale(1) translateY(-10px)
+}
+
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.box {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box li h4 {
+    margin-bottom: 2px;
+
+}
+
+.bar {
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.bar::before {
+    content: "";
+    background-color: #8b008b;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.bar.bar1::before {
+    width: calc(90% - 10px);
+}
+
+.bar.bar2::before {
+    width: calc(75% - 10px);
+}
+
+.bar.bar3::before {
+    width: calc(35% - 10px);
+}
+
+.bar.bar4::before {
+    width: calc(69% - 10px);
+}
+
+.skills {
+    font-family: "Francois One", serif;
+    font-size: 4rem;
+}
+
+.skill {
+    min-height: 100vh;
+    padding: 1rem 9% 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: "Lexend", serif;
+}
+
+
+
+.footer-col {
+    justify-items: center;
+    width: 600px;
+    padding: 40px;
+    margin: 50px auto;
+    background-color: #d6d3d37a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.footer-col h4 {
+    font-family: "Francois One", serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.footer-col input[type="text"],
+.footer-col input[type="email"],
+.footer-col .desc {
+    width: calc(100% - 40px);
+    height: auto;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-family: "Lexend", serif;
+}
+
+.footer-col input[type="text"]:focus,
+.footer-col input[type="email"]:focus,
+.footer-col .desc:focus {
+    border-color: #8b008b;
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 0, 139, 0.3);
+}
+
+.footer-col .submit {
+    background-color: #8b008b;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.footer-col .submit:hover {
+    background-color: #9932cc;
+}
+
+.footer {
+    justify-items: center;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow-me {
+    margin-bottom: 1rem;
+}
+
+.follow-me p {
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #8b008b;
+}
+
+.copyright p {
+    font-size: 15px;
+    color: #9e9d9d;
+}
+
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column;
+    }
+}
